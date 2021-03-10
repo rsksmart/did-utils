@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "DID utils",
   "main": "lib/index.js",
+  "files": ["lib"],
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest",
