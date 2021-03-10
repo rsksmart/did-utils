@@ -3,7 +3,7 @@
  * @param address did identifier
  * @param chainId did network
  */
- export const createDidFormat = (address: string, chainId: number) => {
+ export const createDidFormat = (address: string, chainId: number): string => {
   switch (chainId) {
     case 1: return `did:ethr:${address}`
     case 3: return `did:ethr:ropsten:${address}`
